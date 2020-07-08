@@ -1,16 +1,21 @@
 {
-  "name": "loyout",
+  "name": "layout",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://dimagong.github.io/layout",
   "scripts": {
     "build": "webpack",
     "start": "webpack --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^3.1.0",
     "webpack": "^4.43.0"
   },
   "devDependencies": {
