@@ -351,19 +351,20 @@
   text-align: center;
 }
 .top-box .main-container .main-container__box .form-register .form-block .form-options {
-  padding-top: 10%;
+  margin-top: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 1px solid;
 }
 .top-box .main-container .main-container__box .form-register .form-block .form-options .divinput {
   display: flex;
 }
 .top-box .main-container .main-container__box .form-register .form-block .form-options .divinput input {
+  border: 1px solid;
   width: 300px;
   height: 50px;
-  border-radius: 3px;
   outline: none;
 }
 .top-box .main-container .main-container__box .form-register .form-block .form-options .divinput #run-scroll {
